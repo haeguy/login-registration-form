@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<link rel="stylesheet" href="index.css">
+<body>
+    <div class="form login">
+        <span class="title">Registration</span>
+        <form action="#">
+            <div class="input-field">
+                <input type="text" placeholder="Enter your name" required>
+                <i class="uil uil-user icon"></i>
+            </div>
+            <div class="input-field">
+                <input type="text" placeholder="Enter your email" required>
+                <i class="uil uil-envelope icon"></i>
+            </div>
+            <div class="input-field">
+                <input type="password" class="password" placeholder="Create a password" required>
+                <i class="uil uil-lock icon"></i>
+                <i class="uil uil-eye-slash showHidePw"></i>
+            </div>
+            <div class="input-field">
+                <input type="password" class="password" placeholder="Confirm a password" required>
+                <i class="uil uil-lock icon"></i>
+                <i class="uil uil-eye-slash showHidePw"></i>
+            </div>
+            <div class="checkbox-text">
+                <div class="checkbox-content " id="logcheck">
+                    <input type="checkbox">
+                    <label for="logcheck" class="text">i accept all terms & conditions</label>
+                </div>
+            </div>
+            <div class="input-field button">
+                <input type="button" value="Login Now">
+            </div>
+        </form>
+        <div class="login-signup">
+            <span class="text">Already have an account?</span>
+            <a href="#" class="text sign-text">Login Now</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -12,7 +12,6 @@ body{
     justify-content: center;
     background-color:#fff;
     background-color:#4070f4;
-    flex-direction:column;
     /* background-color:#000; */
 }
 .container{
@@ -78,6 +77,8 @@ body{
 }
 .input-field i.showHidePw{
   right:0;
+  cursor:pointer;
+  padding:10px;
 }
 .form .checkbox-text{
   display: flex;
